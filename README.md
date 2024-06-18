@@ -13,3 +13,13 @@ To make this wireless network construction possible, tasks have been broken into
 
 ![Gantt chart of designing WSN](GanttChart.png) <br>
 <div style="text-align: center;" markdown="1"> Figure 1: Gantt chart of designing WSN </div> <br>
+
+## 3. Methodology
+
+### 3.1 Familiarisation of the Components
+
+This is the first stage of this project. In this stage, the components are collected and relevant data sheets are obtained to identify components’ pins and functionalities. They are presented in the Table 1 under different rows describing each component’s function, pins and features.
+
+<div style="text-align: center;" markdown="1"> Table 1: System components’ pins and functionalities </div>
+
+![: System components’ pins and functionalities](Systemcomponentstable.png) <br>
