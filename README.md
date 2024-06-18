@@ -51,3 +51,12 @@ The acceleration can directly read from the LSM303 DLHC sensor. There is no need
 
 ![Acceleration Reading flow chart](LSM303DLHCflowchart.png) 
 <div style="text-align: center;" markdown="1"> Figure 4: Acceleration Reading flow chart. (self composed)</div> <br>
+
+### 3.3 Building a monitoring platform
+
+This is the third stage of this project. In here, have to build a webpage, where can monitor the information retrieved from the sensors after the processing. To develop a webpage, Hyper Text Markup Language(HTML) is used. Here as the first step developed a webpage using non-sensing data with the aid of w3schools, as shown in the Figure 5.
+
+![Webpage developed using non sensing data in w3schools ](nonsensedataweb.png) 
+<div style="text-align: center;" markdown="1"> Figure 5: Webpage developed using non sensing data in w3schools . (self composed)</div> <br>
+
+Figure 5 on the left-hand side it shows the html code and on the right-hand side shows the result of html. However, our concern is to bring the Arduino data to this webpage instead of the non-sensing data.
