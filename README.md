@@ -87,3 +87,14 @@ Then, have to build the connections between each part in physical. In the initia
 ![Interconnections of components in the node](interconnectionnode.png) 
 <div style="text-align: center;" markdown="1"> Figure 9: Interconnections of components in the node. (self composed)</div> <br>
 
+### 4.2 Examination of WSN using a connection cable
+
+#### 4.2.1 Ultrasonic Sensor (SRF05) Arduino coding
+
+From the above discussions and methodology from 3.2.1 section, an Arduino code is developed. It is simple, just want to know the process of how to determine the distance which showed in the Figure 2. With the aid of that, the developed Arduino code and its results on serial monitor is shown in the Figure 10.
+
+![Arduino Coding for Ultrasonic sensor](SRF05Arduinocode.png) 
+<div style="text-align: center;" markdown="1"> Figure 10: Arduino Coding for Ultrasonic sensor. (self composed)</div> <br>
+
+
+
