@@ -98,8 +98,14 @@ From the above discussions and methodology from 3.2.1 section, an Arduino code i
 
 #### 4.2.2 Temperature sensor (TMP36) Arduino coding
 
-With the aid of findings and methodology of TMP 36, Arduino Code is developed shown in Figure 10. In the initial time, TMP 36 did not provide correct reading because of wrong bit numbers of analog digital converter in LOLIN D32 pro. Then managed, to get to know that bit of ADC in LOLIN D32 pro is 12 and after doing some alteration in scaling factors managed to get proper reading of TMP 36 sensor. To ensure, reading it was compared with the home thermostat and they show nearly same reading. They have been shown in the Figure 11 as well.
+With the aid of findings and methodology of TMP 36, Arduino Code is developed shown in the Figure 11. In the initial time, TMP 36 did not provide correct reading because of wrong bit numbers of analog digital converter in LOLIN D32 pro. Then managed, to get to know that bit of ADC in LOLIN D32 pro is 12 and after doing some alteration in scaling factors managed to get proper reading of TMP 36 sensor. To ensure, reading it was compared with the home thermostat and they show nearly same reading. They have been shown in the Figure 11 as well.
 
 ![Arduino Coding for TMP36](TMP36Arduinocode.png) 
 <div style="text-align: center;" markdown="1"> Figure 11: Arduino Coding for TMP36. (self composed)</div> <br>
 
+4.2.3 Accelerometer sensor (LSM303 DLHC) Arduino coding
+
+The LSM303 DLHC required additional resources and structure to read the acceleration data. The starting was a bit tedious comparing other sensors. However, afterward, its reading process was too simple. The Arduino coding for LSM303 DLHC and the results printed in serial monitor is shown in the Figure 12. However, this coding can be further developed as a location finder for the node by finding the coordinate of each axis. This can be done by integrating the acceleration twice. Finally, it outputs the node’s position in X, Y and Z coordinates. It is shown in Appendix B but not fetched to the final WSN implementation. The reason not used in the final implementation is the frequent change of coordinates with significant differences in the wireless communication. It might be the effect of time calculation being used for it.
+
+![Arduino Coding for LSM303 DLHC](LSM303DLHCArduinocode.png) 
+<div style="text-align: center;" markdown="1"> Figure 12: Arduino Coding for LSM303 DLHC. (self composed)</div> <br>
