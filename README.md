@@ -72,3 +72,18 @@ The setup of wireless is done. Now have to pass the processed information to the
 
 ![Flow chart of passing information to Webpage](webpageinfopass.png) 
 <div style="text-align: center;" markdown="1"> Figure 7: Flow chart of passing information to Webpage. (self composed)</div> <br>
+
+## 4. Results
+
+### 4.1 Familiarisation of the Components
+
+As according to the discussion in 3.1, first constructed a block diagram showing the connection between all subcomponents in the node. It is show in the Figure 8.
+
+![Block diagram of WSN design](blockdiagram.jpg) 
+<div style="text-align: center;" markdown="1"> Figure 8: Block diagram of WSN design. (self composed)</div> <br>
+
+Then, have to build the connections between each part in physical. In the initial did not use any additional power supply, just consumed the power from the LOLIN D32 pro. It shows some error values which are not reliable. Then get to know the power supply was not enough, afterwards connected a 9v battery along with 5V regulator and observed it shows reliable values in Arduino. The connection made between system components are show in the Figure 9.
+
+![Interconnections of components in the node](interconnectionnode.png) 
+<div style="text-align: center;" markdown="1"> Figure 9: Interconnections of components in the node. (self composed)</div> <br>
+
