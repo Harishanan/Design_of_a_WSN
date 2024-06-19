@@ -60,3 +60,15 @@ This is the third stage of this project. In here, have to build a webpage, where
 <div style="text-align: center;" markdown="1"> Figure 5: Webpage developed using non sensing data in w3schools . (self composed)</div> <br>
 
 Figure 5 on the left-hand side it shows the html code and on the right-hand side shows the result of html. However, our concern is to bring the Arduino data to this webpage instead of the non-sensing data.
+
+### 3.4 Examination of WSN using wireless communication
+
+The ESP 32 has a Wi-Fi and Bluetooth feature. Here, the Wi-Fi is being used. It means going to use the IEEE802.11 MAC protocol. To access this feature, need an additional library, it is the WiFi.h. It provides wireless connection and communication. Then, regarding to the instructor’s requirements the system is created as an access point. It means connecting directly with other Wi-Fi enable devices without using an additional physical router. Therefore, it is called as soft access point (Soft AP). (Last Minute Engineers, 2022) The steps for generating the ESP 32 as soft AP are shown in the Figure 6 flow chart.
+
+The setup of wireless is done. Now have to pass the processed information to the client devices as a web page showing the results. For that, the network protocol used here is the HTTP (Hypertext Transfer Protocol). It is an application layer protocol used to transmit HTML, image and document files. The webpage going to transmit here must be accurate and dynamic. To pass a webpage, need another library called WebServer.h. It handles web services. The process of fetching information to a webpage is shown in the Figure 7 flow chart. In that, on the second process (handle root()), the above-designed HTML webpage code will be passed as a string. In the final stage of handling root, the server.send( 200, “text/html”, HTML) is coded saying if the connection was successful between the client and ESP 32 access point, it should pass the HTML text coded in the handle root as an HTML format to create a webpage. (Ramirez, R., 2021)
+
+![Flow chart of creating ESP 32 as an access point](ESP32accesspoint.png) 
+<div style="text-align: center;" markdown="1"> Figure 6: Flow chart of creating ESP 32 as an access point. (self composed)</div> <br>
+
+![Flow chart of passing information to Webpage](webpageinfopass.png) 
+<div style="text-align: center;" markdown="1"> Figure 7: Flow chart of passing information to Webpage. (self composed)</div> <br>
