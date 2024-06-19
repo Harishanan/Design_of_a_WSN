@@ -96,5 +96,10 @@ From the above discussions and methodology from 3.2.1 section, an Arduino code i
 ![Arduino Coding for Ultrasonic sensor](SRF05Arduinocode.png) 
 <div style="text-align: center;" markdown="1"> Figure 10: Arduino Coding for Ultrasonic sensor. (self composed)</div> <br>
 
+#### 4.2.2 Temperature sensor (TMP36) Arduino coding
 
+With the aid of findings and methodology of TMP 36, Arduino Code is developed shown in Figure 10. In the initial time, TMP 36 did not provide correct reading because of wrong bit numbers of analog digital converter in LOLIN D32 pro. Then managed, to get to know that bit of ADC in LOLIN D32 pro is 12 and after doing some alteration in scaling factors managed to get proper reading of TMP 36 sensor. To ensure, reading it was compared with the home thermostat and they show nearly same reading. They have been shown in the Figure 11 as well.
+
+![Arduino Coding for TMP36](TMP36Arduinocode.png) 
+<div style="text-align: center;" markdown="1"> Figure 11: Arduino Coding for TMP36. (self composed)</div> <br>
 
