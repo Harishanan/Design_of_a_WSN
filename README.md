@@ -1,5 +1,28 @@
 # Design_of_a_WSN
 
+## Table Of Contents
+
+- [1. Introduction](#1-introduction)
+- [2. Background](#2-background)
+- [3. Methodology](#3-methodology)
+    - [3.1 Familiarisation of the Components](#31-familiarisation-of-the-components)
+    - [3.2 Examination of WSN using a connection cable](#32-examination-of-wsn-using-a-connection-cable)
+        - [3.2.1 Ultrasonic Sensor (SRF05)](#321-ultrasonic-sensor-srf05)
+        - [3.2.2 Temperature Sensor (TMP 36)](#322-temperature-sensor-tmp36)
+        - [3.2.3 Accelerometer Sensor (LSM303 DLHC)](#323-accelerometer-lsm303-dlhc)
+    - [3.3 Building a monitoring platform](#33-building-a-monitoring-platform)
+    - [3.4 Examination of WSN using wireless communication](#34-examination-of-wsn-using-wireless-communication)
+- [4. Result](#4-results)
+    - [4.1 Familiarisation of the Components](#41-familiarisation-of-the-components)
+    - [4.2 Examination of WSN using a connection cable](#42-examination-of-wsn-using-a-connection-cable)
+        - [4.2.1 Ultrasonic Sensor (SRF05) Arduino coding](#421-ultrasonic-sensor-srf05-arduino-coding)
+        - [4.2.2 Temperature Sensor (TMP 36) Arduino coding](#422-temperature-sensor-tmp36-arduino-coding)
+        - [4.2.3 Accelerometer Sensor (LSM303 DLHC) Arduino coding](#423-accelerometer-sensor-lsm303-dlhc-arduino-coding)
+    - [4.3 Building a monitoring platform](#43-examination-of-wsn-using-wireless-communication)
+- [5. Conclusion](#5-conclusion)
+- [6. References](#6-reference)
+
+
 ## 1. Introduction
 
 The aim of this report is to describe the process of creating a wireless sensor node. To achieve this aim, several objectives need to be fulfilled, such as understanding the components being used in the node, building connections between the components in the node, ensuring the components functioning correctly, building a wireless network, transmitting data over the wireless network and monitoring them using user interface platform.
