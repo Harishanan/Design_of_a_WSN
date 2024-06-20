@@ -119,3 +119,19 @@ After building the above codes and setting up the wireless connection developed 
 
 ## 5. Conclusion
 
+In conclusion, have built a local sensor node using the SRF05 module to find the distance, TMP 36 to find the ambient temperature and LSM303 DLHC to find acceleration utilized in the device with the help of core processing subsystem, LOLIN D32 Pro, then formed a wireless network using IEEE802.11 MAC protocol of LOLIN D32 Pro and transmitted data to other device using HTTP application protocol to monitor the reading in the webpage from a specific location. These processes gave a great depth of understanding for an engineering student of how wireless networks are formed, data transmission happens and the integration of sensor technologies. Moreover, by creating these WSNs, the node/ system can be placed in vulnerable/ desired locations and can observe wanted information. For example, the created WSN with more powerful features can place near the car windshield and, using a mobile device, can monitor the acceleration used in the car, the ambient temperature, and the distance between the car and the opposite/ front vehicles.
+
+## 6. Reference
+
+Kiani, W.by H. (2021) Getting started with ultrasonic module SRF05 and Arduino, Electropeak.
+Available at: https://electropeak.com/learn/getting-started-with-ultrasonic-module-and-arduino/ (Accessed: 15 March 2023).
+
+Last Minute Engineers (2022) In-depth: Create a simple ESP32 web server in Arduino Ide, Last
+Minute Engineers. Available at : https://lastminuteengineers.com/creating-esp32-web-server-arduino-ide/ (Accessed: 24 March 2023).
+
+Last Minute Engineers (2021) In-depth: Interfacing TMP36 temperature sensor with Arduino,
+Last Minute Engineers. Available at: https://lastminuteengineers.com/tmp36-temperature-sensor-arduino-tutorial/ (Accessed: 14 March 2023).
+
+Ramirez, R. (2021) How to show Arduino Sensor Data on a webpage, Circuit Basic. Available 
+at: https://www.circuitbasics.com/how-to-set-up-a-web-server-using-arduino-and-esp8266-01/ 
+(Accessed: 23 March 2023).
