@@ -103,7 +103,7 @@ With the aid of findings and methodology of TMP 36, Arduino Code is developed sh
 ![Arduino Coding for TMP36](TMP36Arduinocode.png) 
 <div style="text-align: center;" markdown="1"> Figure 11: Arduino Coding for TMP36. (self composed)</div> <br>
 
-### 4.2.3 Accelerometer sensor (LSM303 DLHC) Arduino coding
+#### 4.2.3 Accelerometer sensor (LSM303 DLHC) Arduino coding
 
 The LSM303 DLHC required additional resources and structure to read the acceleration data. The starting was a bit tedious comparing other sensors. However, afterward, its reading process was too simple. The Arduino coding for LSM303 DLHC and the results printed in serial monitor is shown in the Figure 12. However, this coding can be further developed as a location finder for the node by finding the coordinate of each axis. This can be done by integrating the acceleration twice. Finally, it outputs the node’s position in X, Y and Z coordinates. It is shown in Appendix B but not fetched to the final WSN implementation. The reason not used in the final implementation is the frequent change of coordinates with significant differences in the wireless communication. It might be the effect of time calculation being used for it.
 
