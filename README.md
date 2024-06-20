@@ -109,3 +109,13 @@ The LSM303 DLHC required additional resources and structure to read the accelera
 
 ![Arduino Coding for LSM303 DLHC](LSM303DLHCArduinocode.png) 
 <div style="text-align: center;" markdown="1"> Figure 12: Arduino Coding for LSM303 DLHC. (self composed)</div> <br>
+
+### 4.3 Examination of WSN using wireless communication
+
+After building the above codes and setting up the wireless connection developed the final code for the WSN. It is shown in Appendix A, along with the required libraries, sensor coding and server functions. As a result, the ESP32 started acting as a soft AP. The soft AP generated a unique IP address and utilising the IP address, was able to monitor the sensor values in a monitoring platform that connects to Wi-Fi-enabled devices. This process is illustrated in the Figure 13.
+
+![Arduino Coding and wireless communication results](ArduinoWSN.png) 
+<div style="text-align: center;" markdown="1"> Figure 13: Arduino Coding and wireless communication results. (self composed)</div> <br>
+
+## 5. Conclusion
+
